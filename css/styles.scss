@@ -42,10 +42,36 @@ img.profile-pic {
   margin: 0 7px;
 }
 
-img.profile-pic-main {
-  margin: 0px;
+/*the left aside section*/
+
+div.the-main-pic-logo-area {
+  margin: 5px 20px;
+  border: solid 1px #aaa;
 }
 
+img.the-main-profile-pic {
+  width: 100%;
+  height: auto;
+}
+
+ul.status {
+  margin-top: 15%;
+  margin-left: 3%;
+}
+
+ul.status li {
+
+}
+
+div.username {
+  margin: 5px 20px;
+}
+
+div.username p {
+  color: #777;
+}
+
+/*the main right area*/
 ul.the-main-links {
   margin: 30px;
 }
