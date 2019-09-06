@@ -20,7 +20,7 @@
       <form class="form-inline my-2 my-lg-0 search-form">
       <input class="form-control mr-sm-2" type="search" placeholder="Search or jump to..." aria-label="Search">
     </form>
-    <ul class="navbar-nav mr-auto the-main-links">
+    <ul class="navbar-nav mr-auto the-nav-links">
       <li class="nav-item">
         <a class="nav-link" href="#">Pull requests</a>
       </li>
@@ -42,18 +42,33 @@
     </nav>
   </header>
   <main>
-    <div class="container">
-      <section class="overview-links">
+    <div class="container-fluid">
         <div class="row">
+          <!--This col-4 row will house all the aside-->
           <div class="col-xs-4">
-            <img src="https://dummyimage.com/250x250/000/fff" class="profile-pic-main">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="https://dummyimage.com/250x250/111/111" class="the-main-profile-pic">
+              </div>
+            </div>
           </div>
+          <!--This col-8 row will house all the main content-->
           <div class="col-xs-8">
-            <h1>Links go here</h1>
+            <div class="row">
+              <div class="col-xs-12">
+                <ul class="list-inline the-main-links">
+                  <li class="list-inline-item">Overview</li>
+                  <li class="list-inline-item">Repositories</li>
+                  <li class="list-inline-item">Projects</li>
+                  <li class="list-inline-item">Stars</li>
+                  <li class="list-inline-item">Followers</li>
+                  <li class="list-inline-item">Following</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
   </main>
 </body>
 </html>

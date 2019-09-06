@@ -7,6 +7,7 @@ nav {
 i.fa-github {
   color: #fff;
   font-size: 32px;
+  margin: 3px 5px 3px 3px;
 }
 
 input.form-control {
@@ -37,7 +38,11 @@ img.profile-pic {
 }
 
 img.profile-pic-main {
-  margin: 15px;
+  margin: 0px;
+}
+
+ul.the-main-links {
+  margin: 30px;
 }
 
 @media (max-width: 992px) {
@@ -49,7 +54,7 @@ img.profile-pic-main {
     display: none;
   }
 
-  ul.the-main-links li {
+  ul.the-nav-links li {
     display: none;
   }
 
