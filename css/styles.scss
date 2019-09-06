@@ -1,3 +1,37 @@
-h1 {
-  color: red;
+$nav-color: #24292e;
+$link-color: #1269d3;
+$border-bottom-hover-link-color: #e16220;
+$gray-button-color: #f2f5f7;
+
+/*HEADER SECTION*/
+nav {
+  background-color: $nav-color;
+}
+
+i.fa-github {
+  color: #fff;
+  font-size: 32px;
+}
+
+input.form-control {
+  background-color: #3f4448;
+  color: #8d9092;
+}
+
+nav ul a.nav-link {
+  color: #fff;
+}
+
+nav ul a.nav-link:hover {
+  color: #ccc;
+}
+
+nav .fa-bell {
+  color: #fff;
+  margin: 0 5px;
+}
+
+nav .fa-plus {
+  color: #fff;
+  margin: 0 5px;
 }

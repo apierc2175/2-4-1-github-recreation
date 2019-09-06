@@ -1,5 +1,34 @@
-h1 {
-  color: red;
+/*HEADER SECTION*/
+nav {
+  background-color: #24292e;
+}
+
+i.fa-github {
+  color: #fff;
+  font-size: 32px;
+}
+
+input.form-control {
+  background-color: #3f4448;
+  color: #8d9092;
+}
+
+nav ul a.nav-link {
+  color: #fff;
+}
+
+nav ul a.nav-link:hover {
+  color: #ccc;
+}
+
+nav .fa-bell {
+  color: #fff;
+  margin: 0 5px;
+}
+
+nav .fa-plus {
+  color: #fff;
+  margin: 0 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
