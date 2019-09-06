@@ -23,12 +23,39 @@ nav ul a.nav-link:hover {
 
 nav .fa-bell {
   color: #fff;
-  margin: 0 5px;
+  margin: 0 7px;
 }
 
 nav .fa-plus {
   color: #fff;
-  margin: 0 5px;
+  margin: 0 7px;
+}
+
+img.profile-pic {
+  margin: 0 7px;
+}
+
+@media (max-width: 992px) {
+  img.profile-pic {
+    display: none;
+  }
+
+  nav .fa-plus {
+    display: none;
+  }
+
+  ul.the-main-links li {
+    display: none;
+  }
+
+  input.form-control {
+    display: none;
+  }
+
+  i.fa-github {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
