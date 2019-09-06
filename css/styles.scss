@@ -46,7 +46,7 @@ img.profile-pic {
 
 div.the-main-pic-logo-area {
   margin: 5px 20px;
-  border: solid 1px #aaa;
+  border: solid 1px #ccc;
 }
 
 img.the-main-profile-pic {
@@ -69,6 +69,40 @@ div.username {
 
 div.username p {
   color: #777;
+  font-size: 20px;
+}
+
+button.the-profile-button {
+  width: 88%;
+  margin: 5px 20px;
+}
+
+div.line {
+  border-bottom: solid 1px #ccc;
+  width: 88%;
+  margin: 25px 20px;
+}
+
+h2.organization {
+  margin: 5px 20px;
+  font-size: 20px;
+}
+
+ul.org-logos {
+  margin: 5px 20px;
+}
+
+ul.org-logos li {
+  margin: 0px;
+}
+
+ul.org-logos li img {
+  height: 25%;
+  width: 25%;
+  margin: 0 2px;
+}
+
+ul.org-logos li.list-inline-item{
 }
 
 /*the main right area*/
