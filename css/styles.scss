@@ -110,6 +110,28 @@ ul.the-main-links {
   margin: 30px;
 }
 
+ul.the-main-links a {
+  color: #333;
+  padding-bottom: 10px;
+}
+
+ul.the-main-links li {
+  margin: 0 3px;
+}
+
+ul.the-main-links a:hover {
+  font-weight: bold;
+  color: #000;
+  border-bottom: solid 2px #ccc;
+}
+
+div.long-line {
+  position: absolute;
+  border-bottom: solid 2px gray;
+  margin: 0 2%;
+  width: 77%;
+}
+
 @media (max-width: 992px) {
   img.profile-pic {
     display: none;
