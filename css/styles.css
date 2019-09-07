@@ -10,7 +10,7 @@ i.fa-github {
   margin: 3px 5px 3px 3px;
 }
 
-input.form-control {
+input.header {
   background-color: #3f4448;
   color: #8d9092;
 }
@@ -103,20 +103,30 @@ ul.the-main-links a {
 }
 
 ul.the-main-links li {
-  margin: 0 3px;
+  margin: 0 10px;
 }
 
 ul.the-main-links a:hover {
   font-weight: bold;
   color: #000;
-  border-bottom: solid 2px #ccc;
+  border-bottom: solid 2px #E16220;
 }
 
 div.long-line {
   position: absolute;
   border-bottom: solid 2px gray;
-  margin: 0 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   width: 77%;
+}
+
+input.search-main {
+  margin: 10px 30px;
+  min-width: 200%;
+}
+
+button.type-all {
+  margin-left: 380%;
 }
 
 @media (max-width: 992px) {
@@ -132,7 +142,7 @@ div.long-line {
     display: none;
   }
 
-  input.form-control {
+  input.header {
     display: none;
   }
 
