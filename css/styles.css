@@ -122,11 +122,26 @@ div.long-line {
 
 input.search-main {
   margin: 10px 30px;
-  min-width: 200%;
+  min-width: 170%;
 }
 
 button.type-all {
-  margin-left: 380%;
+  margin-left: 220%;
+  width: 100%;
+}
+
+button.type-language {
+  margin-left: 160%;
+  width: 100%;
+}
+
+button.type-new {
+  margin-left: 350%;
+  width: 100%;
+}
+
+span.button-bold {
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
