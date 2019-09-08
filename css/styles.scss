@@ -135,26 +135,30 @@ div.long-line {
 
 input.search-main {
   margin: 10px 30px;
-  min-width: 170%;
+  min-width: 155%;
 }
 
 button.type-all {
-  margin-left: 220%;
+  margin-left: 205%;
   width: 100%;
 }
 
 button.type-language {
-  margin-left: 160%;
+  margin-left: 145%;
   width: 100%;
 }
 
 button.type-new {
-  margin-left: 350%;
+  margin-left: 210%;
   width: 100%;
 }
 
 span.button-bold {
   font-weight: bold;
+}
+
+span.marg-me {
+  margin: 0 10px;
 }
 
 @media (max-width: 992px) {
