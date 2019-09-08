@@ -153,6 +153,52 @@ span.marg-me {
   margin: 0 10px;
 }
 
+h1.the-repo-name {
+  margin: 30px 0 10px 30px;
+  color: #1269D3;
+  font-size: 26px;
+}
+
+h1.the-repo-name-2 {
+  margin: 60px 0 10px 30px;
+  color: #1269D3;
+  font-size: 26px;
+}
+
+span.the-language {
+  margin: 0 0 0 30px;
+  font-size: 14px;
+}
+
+span.the-time {
+  margin: 0 0 0 30px;
+  font-size: 13px;
+}
+
+i.the-language-circle {
+  color: #E14D30;
+  margin-right: 2px;
+}
+
+li.star-marg button {
+  margin-left: 450%;
+  width: 100%;
+}
+
+i.fa-star {
+  margin-right: 2px;
+}
+
+div.line-in-repo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: absolute;
+  border-bottom: solid 1px #aaa;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 77%;
+}
+
 @media (max-width: 992px) {
   img.profile-pic {
     display: none;
