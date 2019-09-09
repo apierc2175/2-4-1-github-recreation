@@ -10,6 +10,10 @@ i.fa-github {
   margin: 3px 5px 3px 3px;
 }
 
+.none-when-large {
+  display: none;
+}
+
 input.header {
   background-color: #3f4448;
   color: #8d9092;
@@ -204,6 +208,29 @@ div.line-in-repo {
 }
 
 @media (max-width: 992px) {
+  img.the-main-profile-pic {
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  form.in-header {
+    display: none;
+  }
+
+  .none-when-small {
+    display: none;
+  }
+
+  .none-when-large {
+    position: relative;
+    display: inline;
+    left: 100%;
+  }
+
+  ul.inline-this-when-lower-large {
+    display: inline;
+  }
+
   img.profile-pic {
     display: none;
   }
@@ -262,8 +289,16 @@ div.line-in-repo {
     border: 0 solid #fff;
   }
 
-  li.status {
+  div.status {
     float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  div.username {
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .the-left-side-areas {
