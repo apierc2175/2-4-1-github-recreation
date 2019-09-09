@@ -19,6 +19,10 @@ nav ul a.nav-link {
   color: #fff;
 }
 
+div.hamburger-menu {
+  display: none;
+}
+
 nav ul a.nav-link:hover {
   color: #ccc;
 }
@@ -121,7 +125,7 @@ div.long-line {
   border-bottom: solid 1px #aaa;
   margin-left: 2%;
   margin-right: 2%;
-  width: 77%;
+  width: 110%;
 }
 
 input.search-main {
@@ -196,12 +200,21 @@ div.line-in-repo {
   border-bottom: solid 1px #aaa;
   margin-left: 2%;
   margin-right: 2%;
-  width: 77%;
+  width: 110%;
 }
 
 @media (max-width: 992px) {
   img.profile-pic {
     display: none;
+  }
+
+  div.hamburger-menu {
+    display: block;
+    color: #fff;
+  }
+
+  i.hamburger-menu {
+    color: #fff;
   }
 
   nav .fa-plus {
@@ -231,6 +244,57 @@ div.line-in-repo {
 
   nav {
     height: 55px;
+  }
+
+  .the-profile-button {
+    display: none;
+  }
+
+  div.disappear {
+    display: none;
+  }
+
+  h2.organization {
+    display: none;
+  }
+
+  ul.org-logos {
+    display: none;
+  }
+
+  div.the-main-pic-logo-area {
+    border: 0 solid #fff;
+  }
+
+  li.status {
+    float: right;
+  }
+
+  .the-left-side-areas {
+    display: inline-block !important;
+  }
+
+  div.long-line {
+    width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  div.line-in-repo {
+    width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  ul.the-main-links li {
+    margin: 0 8px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  ul.the-main-links li {
+    margin: 0 8px;
+    font-size: 12px;
   }
 }
 
