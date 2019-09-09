@@ -245,10 +245,6 @@ div.line-in-repo {
     display: none;
   }
 
-  .search-form {
-    display: none;
-  }
-
   i.fa-github {
     position: absolute;
     left: 50%;
@@ -306,11 +302,122 @@ div.line-in-repo {
     margin: 0 8px;
     font-size: 16px;
   }
+
+  li.star-marg button{
+    margin-left: 300%;
+    width: 100%;
+  }
+
+  button.type-all {
+    margin-left: 205%;
+    width: 100%;
+  }
+
+  button.type-language {
+    margin-left: 145%;
+    width: 100%;
+  }
+
+  button.type-new {
+    margin-left: 210%;
+    width: 100%;
+  }
+
+  span.button-bold {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  button.type-all {
+    margin-left: 60%;
+    width: 100%;
+  }
+
+  button.type-language {
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  button.type-new {
+    margin-left: 80%;
+    width: 100%;
+  }
+
+  span.button-bold {
+    font-weight: bold;
+  }
+
+  input.search-main {
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
   ul.the-main-links li {
     margin: 0 8px;
     font-size: 12px;
+  }
+
+  li.star-marg button{
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  button.type-all {
+    margin-left: -25%;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  button.type-language {
+    margin-left: -23%;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  button.type-new {
+    margin-left: -30%;
+    width: 100%;
+    font-size: 11px;
+    display: block;
+  }
+
+  span.button-bold {
+    font-weight: bold;
+  }
+
+  input.search-main {
+    margin-left: 1%;
+    min-width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  button.type-all {
+    margin-left: -55%;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  button.type-language {
+    margin-left: -45%;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  button.type-new {
+    margin-left: -55%;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  span.button-bold {
+    font-weight: bold;
+  }
+
+  input.search-main {
+    margin-left: 1%;
+    min-width: 60%;
   }
   }
