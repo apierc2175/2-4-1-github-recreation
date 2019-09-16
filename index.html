@@ -69,9 +69,11 @@
                 <button type="button" class="btn btn-light the-profile-button">Edit Profile</button>
                 <div class="line disappear"></div>
                 <h2 class="organization">Organizations</h2>
-                <ul class="list-inline org-logos">
-                  <li class="list-inline-item"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"></li>
-                </ul>
+                <div class="org">
+                  <!--<ul class="list-inline org-logos">
+                    <li class="list-inline-item"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"></li>
+                  </ul>-->
+                </div>
               </div>
             </div>
           </div>
@@ -221,6 +223,14 @@
               <div class="line-in-repo"></div>
             </div>
           </div>
+        {{/each}}
+      </script>
+
+      <script id="org" type="text/x-handlebars-template">
+        {{#each org}}
+        <ul class="list-inline org-logos">
+          <li class="list-inline-item"><a href="{{repos_url}}"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"></a><a href="{{repos_url}}"><img src="https://avatars1.githubusercontent.com/u/54284124?s=70&v=4"></a></li>
+        </ul>
         {{/each}}
       </script>
 

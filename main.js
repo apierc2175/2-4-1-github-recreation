@@ -54,6 +54,42 @@ $(document).ready(function() {
   getRepoData.done(createRepoHTML);
 
 
+
+
+
+  let createOrgHTML = (res) => {
+    let source = $('#org').html();
+    let template = Handlebars.compile(source);
+    let context = {org: res.data};
+    console.log(context);
+    let html = template(context);
+    $('.org').append(html);
+
+
+  }
+
+  let getOrgData = $.ajax({
+    method: 'GET',
+    url: `${BASE_URL}/${USERNAME}/orgs`,
+    dataType: "jsonp",
+    data: {
+      client_id: CLIENT_ID,
+      client_secret: CLIENT_SECRET,
+    }
+  });
+
+  getOrgData.done(createOrgHTML);
+
+
+
+
+
+
+
+
+
+
+
 });
 
 // $(document).ready(function() {
