@@ -48,8 +48,8 @@
           <!--This col-4 row will house all the aside-->
           <div class="col-xs-4 the-left-side-areas">
             <div class="row">
-              <div class="col-xs-12">
-                <div class="the-main-pic-logo-area">
+              <div class="col-xs-12 profile-section">
+                <!-- <div class="the-main-pic-logo-area">
                   <img src="https://dummyimage.com/250x250/111/111" class="the-main-profile-pic">
                   <ul class="list-inline status inline-this-when-lower-large">
                     <div class="status">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="username none-when-small">
                   <p>apierc2175</p>
-                </div>
+                </div> -->
                 <button type="button" class="btn btn-light the-profile-button">Edit Profile</button>
                 <div class="line disappear"></div>
                 <h2 class="organization">Organizations</h2>
@@ -76,7 +76,7 @@
             </div>
           </div>
           <!--This col-8 row will house all the main content-->
-          <div class="col-xs-12 col-lg-8">
+          <div class="col-xs-12 col-lg-8 repos">
             <div class="row">
               <div class="col-xs-12">
                 <ul class="list-inline the-main-links">
@@ -111,7 +111,7 @@
                 <div class="long-line"></div>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-xs-12">
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="#"><h1 class="the-repo-name">2-4-1-github-recreation</h1></a></li>
@@ -170,10 +170,64 @@
                 <span class="the-time">Updated 20 minutes ago</span>
                 <div class="line-in-repo"></div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
-      </div>
-  </main>
-</body>
+      </main>
+
+      <script id="profile-section" type="text/x-handlebars-template">
+        <div class="the-main-pic-logo-area">
+          <img src={{avatar_url}} class="the-main-profile-pic">
+          <ul class="list-inline status inline-this-when-lower-large">
+            <div class="status">
+              <li class="list-inline-item"><i class="far fa-smile"></i></li>
+              <li class="list-inline-item"><p class="status">
+              Set Status
+              </p></li>
+            </div>
+          </ul>
+        </div>
+        <div class="username">
+          <p>{{name}}</p>
+        </div>
+        <div class="username">
+          <p>{{login}}</p>
+        </div>
+        <div class="username">
+          <p>{{bio}}</p>
+        </div>
+        <div class="username">
+          <p>{{company}}</p>
+        </div>
+        <div class="username">
+          <p>{{location}}</p>
+        </div>
+      </script>
+
+      <script id="repos" type="text/x-handlebars-template">
+        {{#each repos}}
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><h1 class="the-repo-name">{{name}}</h1></a></li>
+                <li class="list-inline-item star-marg"><button class="btn btn-light type-star"><i class="fas fa-star"></i>Star</button></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span class="the-language"><i class="fas fa-circle the-language-circle"></i>{{language}}</span>
+              <span class="the-time">{{updated_at}}</span>
+              <div class="line-in-repo"></div>
+            </div>
+          </div>
+        {{/each}}
+      </script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.2.0/handlebars.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+    </body>
+  </div>
 </html>
