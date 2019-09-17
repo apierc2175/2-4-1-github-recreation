@@ -69,6 +69,15 @@ div.name {
   margin-bottom: 0px;
 }
 
+button .type-new {
+  margin-right: 0;
+}
+
+.row-marg-less {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 div.username {
   margin: 0px 20px;
 }
@@ -185,7 +194,7 @@ h1.the-repo-name {
 }
 
 h1.the-repo-name-2 {
-  margin: 60px 0 10px 30px;
+  margin: 60px 0 1px 30px;
   color: #1269D3;
   font-size: 26px;
 }
@@ -307,15 +316,11 @@ div.line-in-repo {
   }
 
   div.status {
-    float: right;
-    margin-left: 2px;
-    margin-right: 2px;
+    transform: translateX(60%);
   }
 
   div.username {
-    float: right;
-    margin-left: 2px;
-    margin-right: 2px;
+    transform: translateX(60%);
   }
 
   .the-left-side-areas {
@@ -340,7 +345,6 @@ div.line-in-repo {
   }
 
   li.star-marg button {
-    margin-left: 300%;
     width: 100%;
   }
 
@@ -356,6 +360,7 @@ div.line-in-repo {
 
   button.type-new {
     margin-left: 210%;
+    margin-right: 0;
     width: 100%;
   }
 
@@ -394,7 +399,6 @@ div.line-in-repo {
   }
 
   li.star-marg button {
-    margin-left: 100%;
     width: 100%;
   }
 
