@@ -70,13 +70,31 @@ ul.status li {
 
 }
 
+div.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
 div.username {
-  margin: 5px 20px;
+  margin: 0px 20px;
 }
 
 div.username p {
   color: #777;
   font-size: 20px;
+}
+
+div.info {
+  font-size: 16px;
+  margin: 2px 20px;
+}
+
+div.info a {
+  color: #1269D3;
 }
 
 button.the-profile-button {
@@ -204,7 +222,7 @@ i.the-language-circle {
 }
 
 li.star-marg button{
-  margin-left: 450%;
+  margin: 1px;
   width: 100%;
 }
 
